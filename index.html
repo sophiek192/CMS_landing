@@ -60,7 +60,32 @@ b {
   background-color: #ddd;
   color: black;
 }
+#toggle {
+  bottom: 866px; /* Set the bottom position to 10 pixels */
+  right: 19px; /* Set the right position to 10 pixels */
+  border: none; /* Remove the border */
+  padding: 520x;
+  border-radius: 40px; /* Add some rounded corners */
+  cursor: pointer; /* Change the cursor to a pointer */
+  /*background-color: rgba(255,255,255,0.5);*/
+  position: absolute;
+  color: white;
+    
+}
 
+#toggle:hover {
+  background-color: gray;
+}
+
+:root {
+  --bg-color: white; /* Background color */
+  --text-color: black; /* Text color */
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
 </style>
     <meta charset="UTF-8">
@@ -76,6 +101,7 @@ b {
         <a href="https://www.unswdata.com/sponsorships">Sponsors</a>
         <a href="https://www.unswdata.com/publications">Publications</a>
         <a href="https://www.unswdata.com/contact">Contact</a>
+        <button id="toggle">Dark</button>
     </div>
 
     <div class="container wrapper">
@@ -87,7 +113,9 @@ b {
     <p>Uniting students with a passion for data science,
         machine learning and artificial intelligence.</p>
     
-    <button type="button">Join Us!</button>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7ZarJ91GWovAAYDiRIJgXS-9RBuFOJLRQ1yZh8rjolhey-A/viewform">
+        <button> Join Us!</button>
+    </a>
     
 </body>
 </html>

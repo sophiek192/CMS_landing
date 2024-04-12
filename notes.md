@@ -52,3 +52,5 @@ float-right tag
 - Another page
 - Dark mode
 - Moving CSS to one file
+
+- Lol when i change screen sizes, it messes up a bit
