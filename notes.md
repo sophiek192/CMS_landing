@@ -46,3 +46,9 @@ CAN ADD ANIMATED GIFTS!!!!
 Can play the **img** tag before, to make it linked? => https://www.youtube.com/watch?v=FmoYRiepmOE
 
 float-right tag
+
+
+**Things to add**:
+- Another page
+- Dark mode
+- Moving CSS to one file
