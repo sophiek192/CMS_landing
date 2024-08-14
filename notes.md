@@ -47,10 +47,8 @@ Can play the **img** tag before, to make it linked? => https://www.youtube.com/w
 
 float-right tag
 
-
-**Things to add**:
-- Another page
-- Dark mode
-- Moving CSS to one file
-
-- Lol when i change screen sizes, it messes up a bit
+Flexbox:
+- Block, sectioning website
+- Inline, for text
+- Table
+- POsitioned elements
